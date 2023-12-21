@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RegisterationTraineeModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Traineeskill">
+    <Key>
+      <PropertyRef Name="S_NO" />
+    </Key>
+    <Property Name="S_NO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Personal_statement" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Skills" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Required_rate" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Available" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Experience" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="RegisterationTraineeEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Traineeskills" EntityType="Self.Traineeskill" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,115 @@
+L:\IPT project\DESKTOP\obj\Debug\DESKTOP.csprojAssemblyReference.cache
+L:\IPT project\DESKTOP\obj\Debug\DESKTOP.Form1.resources
+L:\IPT project\DESKTOP\obj\Debug\DESKTOP.Form2.resources
+L:\IPT project\DESKTOP\obj\Debug\DESKTOP.Form3.resources
+L:\IPT project\DESKTOP\obj\Debug\DESKTOP.Form4.resources
+L:\IPT project\DESKTOP\obj\Debug\DESKTOP.Properties.Resources.resources
+L:\IPT project\DESKTOP\obj\Debug\DESKTOP.csproj.GenerateResource.cache
+L:\IPT project\DESKTOP\obj\Debug\DESKTOP.csproj.CoreCompileInputs.cache
+L:\IPT project\DESKTOP\bin\Debug\DESKTOP.exe.config
+L:\IPT project\DESKTOP\bin\Debug\DESKTOP.exe
+L:\IPT project\DESKTOP\bin\Debug\DESKTOP.pdb
+L:\IPT project\DESKTOP\obj\Debug\DESKTOP.exe
+L:\IPT project\DESKTOP\obj\Debug\DESKTOP.pdb
+L:\IPT project\DESKTOP\obj\Debug\DESKTOP.Form5.resources
+L:\IPT project\DESKTOP\obj\Debug\DESKTOP.Form6.resources
+E:\IPT\proj\DESKTOP\bin\Debug\DESKTOP.exe.config
+E:\IPT\proj\DESKTOP\bin\Debug\DESKTOP.exe
+E:\IPT\proj\DESKTOP\bin\Debug\DESKTOP.pdb
+E:\IPT\proj\DESKTOP\obj\Debug\DESKTOP.csprojAssemblyReference.cache
+E:\IPT\proj\DESKTOP\obj\Debug\DESKTOP.Form1.resources
+E:\IPT\proj\DESKTOP\obj\Debug\DESKTOP.Form2.resources
+E:\IPT\proj\DESKTOP\obj\Debug\DESKTOP.Form3.resources
+E:\IPT\proj\DESKTOP\obj\Debug\DESKTOP.Form4.resources
+E:\IPT\proj\DESKTOP\obj\Debug\DESKTOP.Form5.resources
+E:\IPT\proj\DESKTOP\obj\Debug\DESKTOP.Form6.resources
+E:\IPT\proj\DESKTOP\obj\Debug\DESKTOP.Properties.Resources.resources
+E:\IPT\proj\DESKTOP\obj\Debug\DESKTOP.csproj.GenerateResource.cache
+E:\IPT\proj\DESKTOP\obj\Debug\DESKTOP.csproj.CoreCompileInputs.cache
+E:\IPT\proj\DESKTOP\obj\Debug\DESKTOP.exe
+E:\IPT\proj\DESKTOP\obj\Debug\DESKTOP.pdb
+E:\IPT\proj\DESKTOP\obj\Debug\DESKTOP.Companyhomepage.resources
+E:\IPT\proj\DESKTOP\obj\Debug\DESKTOP.traineesearch.resources
+E:\IPT\proj\DESKTOP\obj\Debug\DESKTOP.traineehome.resources
+E:\IPT\proj\DESKTOP\obj\Debug\DESKTOP.Userprofile.resources
+E:\IPT\proj\DESKTOP\obj\Debug\DESKTOP.jobsearch.resources
+L:\DESKTOP\bin\Debug\DESKTOP.exe.config
+L:\DESKTOP\bin\Debug\DESKTOP.exe
+L:\DESKTOP\bin\Debug\DESKTOP.pdb
+L:\DESKTOP\obj\Debug\DESKTOP.csprojAssemblyReference.cache
+L:\DESKTOP\obj\Debug\DESKTOP.Companyhomepage.resources
+L:\DESKTOP\obj\Debug\DESKTOP.Signup_Trainee.resources
+L:\DESKTOP\obj\Debug\DESKTOP.Company_details.resources
+L:\DESKTOP\obj\Debug\DESKTOP.Company_Login.resources
+L:\DESKTOP\obj\Debug\DESKTOP.Trainee_Login.resources
+L:\DESKTOP\obj\Debug\DESKTOP.Signup_Company.resources
+L:\DESKTOP\obj\Debug\DESKTOP.Home_Page.resources
+L:\DESKTOP\obj\Debug\DESKTOP.jobsearch.resources
+L:\DESKTOP\obj\Debug\DESKTOP.Properties.Resources.resources
+L:\DESKTOP\obj\Debug\DESKTOP.traineehome.resources
+L:\DESKTOP\obj\Debug\DESKTOP.traineesearch.resources
+L:\DESKTOP\obj\Debug\DESKTOP.Userprofile.resources
+L:\DESKTOP\obj\Debug\DESKTOP.csproj.GenerateResource.cache
+L:\DESKTOP\obj\Debug\DESKTOP.csproj.CoreCompileInputs.cache
+L:\DESKTOP\obj\Debug\DESKTOP.exe
+L:\DESKTOP\obj\Debug\DESKTOP.pdb
+C:\Users\Anashrah\Desktop\7th semester\IPT\project\DESKTOP\bin\Debug\DESKTOP.exe.config
+C:\Users\Anashrah\Desktop\7th semester\IPT\project\DESKTOP\bin\Debug\DESKTOP.exe
+C:\Users\Anashrah\Desktop\7th semester\IPT\project\DESKTOP\bin\Debug\DESKTOP.pdb
+C:\Users\Anashrah\Desktop\7th semester\IPT\project\DESKTOP\obj\Debug\DESKTOP.csproj.AssemblyReference.cache
+C:\Users\Anashrah\Desktop\7th semester\IPT\project\DESKTOP\obj\Debug\DESKTOP.Companyhomepage.resources
+C:\Users\Anashrah\Desktop\7th semester\IPT\project\DESKTOP\obj\Debug\DESKTOP.Signup_Trainee.resources
+C:\Users\Anashrah\Desktop\7th semester\IPT\project\DESKTOP\obj\Debug\DESKTOP.Company_details.resources
+C:\Users\Anashrah\Desktop\7th semester\IPT\project\DESKTOP\obj\Debug\DESKTOP.Company_Login.resources
+C:\Users\Anashrah\Desktop\7th semester\IPT\project\DESKTOP\obj\Debug\DESKTOP.Trainee_Login.resources
+C:\Users\Anashrah\Desktop\7th semester\IPT\project\DESKTOP\obj\Debug\DESKTOP.Signup_Company.resources
+C:\Users\Anashrah\Desktop\7th semester\IPT\project\DESKTOP\obj\Debug\DESKTOP.Home_Page.resources
+C:\Users\Anashrah\Desktop\7th semester\IPT\project\DESKTOP\obj\Debug\DESKTOP.jobsearch.resources
+C:\Users\Anashrah\Desktop\7th semester\IPT\project\DESKTOP\obj\Debug\DESKTOP.Properties.Resources.resources
+C:\Users\Anashrah\Desktop\7th semester\IPT\project\DESKTOP\obj\Debug\DESKTOP.traineehome.resources
+C:\Users\Anashrah\Desktop\7th semester\IPT\project\DESKTOP\obj\Debug\DESKTOP.traineesearch.resources
+C:\Users\Anashrah\Desktop\7th semester\IPT\project\DESKTOP\obj\Debug\DESKTOP.Userprofile.resources
+C:\Users\Anashrah\Desktop\7th semester\IPT\project\DESKTOP\obj\Debug\DESKTOP.csproj.GenerateResource.cache
+C:\Users\Anashrah\Desktop\7th semester\IPT\project\DESKTOP\obj\Debug\DESKTOP.csproj.CoreCompileInputs.cache
+C:\Users\Anashrah\Desktop\7th semester\IPT\project\DESKTOP\obj\Debug\DESKTOP.exe
+C:\Users\Anashrah\Desktop\7th semester\IPT\project\DESKTOP\obj\Debug\DESKTOP.pdb
+L:\IPT Latest\project\DESKTOP\bin\Debug\DESKTOP.exe.config
+L:\IPT Latest\project\DESKTOP\bin\Debug\DESKTOP.exe
+L:\IPT Latest\project\DESKTOP\bin\Debug\DESKTOP.pdb
+L:\IPT Latest\project\DESKTOP\obj\Debug\DESKTOP.csprojAssemblyReference.cache
+L:\IPT Latest\project\DESKTOP\obj\Debug\DESKTOP.Companyhomepage.resources
+L:\IPT Latest\project\DESKTOP\obj\Debug\DESKTOP.Signup_Trainee.resources
+L:\IPT Latest\project\DESKTOP\obj\Debug\DESKTOP.Company_details.resources
+L:\IPT Latest\project\DESKTOP\obj\Debug\DESKTOP.Company_Login.resources
+L:\IPT Latest\project\DESKTOP\obj\Debug\DESKTOP.Trainee_Login.resources
+L:\IPT Latest\project\DESKTOP\obj\Debug\DESKTOP.Signup_Company.resources
+L:\IPT Latest\project\DESKTOP\obj\Debug\DESKTOP.Home_Page.resources
+L:\IPT Latest\project\DESKTOP\obj\Debug\DESKTOP.jobsearch.resources
+L:\IPT Latest\project\DESKTOP\obj\Debug\DESKTOP.Properties.Resources.resources
+L:\IPT Latest\project\DESKTOP\obj\Debug\DESKTOP.traineehome.resources
+L:\IPT Latest\project\DESKTOP\obj\Debug\DESKTOP.traineesearch.resources
+L:\IPT Latest\project\DESKTOP\obj\Debug\DESKTOP.Userprofile.resources
+L:\IPT Latest\project\DESKTOP\obj\Debug\DESKTOP.csproj.GenerateResource.cache
+L:\IPT Latest\project\DESKTOP\obj\Debug\DESKTOP.csproj.CoreCompileInputs.cache
+L:\IPT Latest\project\DESKTOP\obj\Debug\DESKTOP.exe
+L:\IPT Latest\project\DESKTOP\obj\Debug\DESKTOP.pdb
+F:\University\IPT\IPT_PROJECT\IPT PROJECY\IPT Project\DESKTOP\bin\Debug\DESKTOP.exe.config
+F:\University\IPT\IPT_PROJECT\IPT PROJECY\IPT Project\DESKTOP\bin\Debug\DESKTOP.exe
+F:\University\IPT\IPT_PROJECT\IPT PROJECY\IPT Project\DESKTOP\bin\Debug\DESKTOP.pdb
+F:\University\IPT\IPT_PROJECT\IPT PROJECY\IPT Project\DESKTOP\obj\Debug\DESKTOP.csproj.AssemblyReference.cache
+F:\University\IPT\IPT_PROJECT\IPT PROJECY\IPT Project\DESKTOP\obj\Debug\DESKTOP.Companyhomepage.resources
+F:\University\IPT\IPT_PROJECT\IPT PROJECY\IPT Project\DESKTOP\obj\Debug\DESKTOP.Signup_Trainee.resources
+F:\University\IPT\IPT_PROJECT\IPT PROJECY\IPT Project\DESKTOP\obj\Debug\DESKTOP.Company_details.resources
+F:\University\IPT\IPT_PROJECT\IPT PROJECY\IPT Project\DESKTOP\obj\Debug\DESKTOP.Company_Login.resources
+F:\University\IPT\IPT_PROJECT\IPT PROJECY\IPT Project\DESKTOP\obj\Debug\DESKTOP.Trainee_Login.resources
+F:\University\IPT\IPT_PROJECT\IPT PROJECY\IPT Project\DESKTOP\obj\Debug\DESKTOP.Signup_Company.resources
+F:\University\IPT\IPT_PROJECT\IPT PROJECY\IPT Project\DESKTOP\obj\Debug\DESKTOP.Home_Page.resources
+F:\University\IPT\IPT_PROJECT\IPT PROJECY\IPT Project\DESKTOP\obj\Debug\DESKTOP.jobsearch.resources
+F:\University\IPT\IPT_PROJECT\IPT PROJECY\IPT Project\DESKTOP\obj\Debug\DESKTOP.Properties.Resources.resources
+F:\University\IPT\IPT_PROJECT\IPT PROJECY\IPT Project\DESKTOP\obj\Debug\DESKTOP.traineehome.resources
+F:\University\IPT\IPT_PROJECT\IPT PROJECY\IPT Project\DESKTOP\obj\Debug\DESKTOP.traineesearch.resources
+F:\University\IPT\IPT_PROJECT\IPT PROJECY\IPT Project\DESKTOP\obj\Debug\DESKTOP.Userprofile.resources
+F:\University\IPT\IPT_PROJECT\IPT PROJECY\IPT Project\DESKTOP\obj\Debug\DESKTOP.csproj.GenerateResource.cache
+F:\University\IPT\IPT_PROJECT\IPT PROJECY\IPT Project\DESKTOP\obj\Debug\DESKTOP.csproj.CoreCompileInputs.cache
+F:\University\IPT\IPT_PROJECT\IPT PROJECY\IPT Project\DESKTOP\obj\Debug\DESKTOP.exe
+F:\University\IPT\IPT_PROJECT\IPT PROJECY\IPT Project\DESKTOP\obj\Debug\DESKTOP.pdb

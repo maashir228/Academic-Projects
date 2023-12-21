@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RegisterationTraineeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Employerjobs">
+    <Key>
+      <PropertyRef Name="s_no" />
+    </Key>
+    <Property Name="s_no" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID" Type="nvarchar" MaxLength="50" />
+    <Property Name="job_name" Type="nchar" MaxLength="100" />
+    <Property Name="minimum_salary" Type="money" />
+    <Property Name="min_hours" Type="nvarchar(max)" />
+    <Property Name="vacant" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Employerregisteration">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Username" Type="nchar" MaxLength="20" />
+    <Property Name="CompanyName" Type="nchar" MaxLength="30" />
+    <Property Name="ManagerName" Type="nchar" MaxLength="30" />
+    <Property Name="Password" Type="nchar" MaxLength="40" />
+    <Property Name="State" Type="nchar" MaxLength="40" />
+    <Property Name="BranchID" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address" Type="text" />
+    <Property Name="Contact_no" Type="nchar" MaxLength="20" />
+    <Property Name="CompanyEmail" Type="nchar" MaxLength="40" />
+  </EntityType>
+  <EntityType Name="RegisterationTrainee">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="UserName" Type="nchar" MaxLength="30" />
+    <Property Name="FirstName" Type="nchar" MaxLength="30" />
+    <Property Name="LastName" Type="nchar" MaxLength="30" />
+    <Property Name="Email" Type="nchar" MaxLength="60" />
+    <Property Name="Date" Type="date" />
+    <Property Name="Password" Type="nchar" MaxLength="40" />
+    <Property Name="Country" Type="nchar" MaxLength="25" />
+    <Property Name="State" Type="nchar" MaxLength="100" />
+    <Property Name="Address" Type="text" />
+    <Property Name="Contact" Type="nchar" MaxLength="20" />
+    <Property Name="license_number" Type="nchar" MaxLength="30" />
+    <Property Name="Social_security_number" Type="nchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Traineeskills">
+    <Key>
+      <PropertyRef Name="S_NO" />
+    </Key>
+    <Property Name="S_NO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID" Type="nvarchar" MaxLength="50" />
+    <Property Name="Personal_statement" Type="text" />
+    <Property Name="Skills" Type="text" />
+    <Property Name="Required_rate" Type="money" />
+    <Property Name="Available" Type="nvarchar(max)" />
+    <Property Name="Experience" Type="nvarchar(max)" />
+  </EntityType>
+  <Association Name="FK__Employerjobs__ID__7AF13DF7">
+    <End Role="Employerregisteration" Type="Self.Employerregisteration" Multiplicity="0..1" />
+    <End Role="Employerjobs" Type="Self.Employerjobs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employerregisteration">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Employerjobs">
+        <PropertyRef Name="ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Traineeskill__ID__2EA5EC27">
+    <End Role="RegisterationTrainee" Type="Self.RegisterationTrainee" Multiplicity="0..1" />
+    <End Role="Traineeskills" Type="Self.Traineeskills" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RegisterationTrainee">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Traineeskills">
+        <PropertyRef Name="ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="RegisterationTraineeModelStoreContainer">
+    <EntitySet Name="Employerjobs" EntityType="Self.Employerjobs" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employerregisteration" EntityType="Self.Employerregisteration" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RegisterationTrainee" EntityType="Self.RegisterationTrainee" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Traineeskills" EntityType="Self.Traineeskills" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Employerjobs__ID__7AF13DF7" Association="Self.FK__Employerjobs__ID__7AF13DF7">
+      <End Role="Employerregisteration" EntitySet="Employerregisteration" />
+      <End Role="Employerjobs" EntitySet="Employerjobs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Traineeskill__ID__2EA5EC27" Association="Self.FK__Traineeskill__ID__2EA5EC27">
+      <End Role="RegisterationTrainee" EntitySet="RegisterationTrainee" />
+      <End Role="Traineeskills" EntitySet="Traineeskills" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

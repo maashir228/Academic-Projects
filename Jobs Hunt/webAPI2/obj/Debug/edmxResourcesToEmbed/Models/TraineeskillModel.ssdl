@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RegisterationTraineeModel1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Traineeskills">
+    <Key>
+      <PropertyRef Name="S_NO" />
+    </Key>
+    <Property Name="S_NO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID" Type="nvarchar" MaxLength="50" />
+    <Property Name="Personal_statement" Type="text" />
+    <Property Name="Skills" Type="text" />
+    <Property Name="Required_rate" Type="money" />
+    <Property Name="Available" Type="nvarchar(max)" />
+    <Property Name="Experience" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityContainer Name="RegisterationTraineeModel1StoreContainer">
+    <EntitySet Name="Traineeskills" EntityType="Self.Traineeskills" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

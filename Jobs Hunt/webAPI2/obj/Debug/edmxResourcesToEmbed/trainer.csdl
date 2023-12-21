@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RegisterationTraineeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Employerjob">
+    <Key>
+      <PropertyRef Name="s_no" />
+    </Key>
+    <Property Name="s_no" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="job_name" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+    <Property Name="minimum_salary" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="min_hours" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="vacant" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Employerregisteration" Relationship="Self.FK__Employerjobs__ID__7AF13DF7" FromRole="Employerjobs" ToRole="Employerregisteration" />
+  </EntityType>
+  <EntityType Name="Employerregisteration">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Username" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="CompanyName" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+    <Property Name="ManagerName" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="40" FixedLength="true" Unicode="true" />
+    <Property Name="State" Type="String" MaxLength="40" FixedLength="true" Unicode="true" />
+    <Property Name="BranchID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Contact_no" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="CompanyEmail" Type="String" MaxLength="40" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="Employerjobs" Relationship="Self.FK__Employerjobs__ID__7AF13DF7" FromRole="Employerregisteration" ToRole="Employerjobs" />
+  </EntityType>
+  <EntityType Name="RegisterationTrainee">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserName" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+    <Property Name="FirstName" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="60" FixedLength="true" Unicode="true" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="Password" Type="String" MaxLength="40" FixedLength="true" Unicode="true" />
+    <Property Name="Country" Type="String" MaxLength="25" FixedLength="true" Unicode="true" />
+    <Property Name="State" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Contact" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="license_number" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+    <Property Name="Social_security_number" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="Traineeskills" Relationship="Self.FK__Traineeskill__ID__2EA5EC27" FromRole="RegisterationTrainee" ToRole="Traineeskills" />
+  </EntityType>
+  <EntityType Name="Traineeskill">
+    <Key>
+      <PropertyRef Name="S_NO" />
+    </Key>
+    <Property Name="S_NO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Personal_statement" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Skills" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Required_rate" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Available" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Experience" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="RegisterationTrainee" Relationship="Self.FK__Traineeskill__ID__2EA5EC27" FromRole="Traineeskills" ToRole="RegisterationTrainee" />
+  </EntityType>
+  <Association Name="FK__Employerjobs__ID__7AF13DF7">
+    <End Role="Employerregisteration" Type="Self.Employerregisteration" Multiplicity="0..1" />
+    <End Role="Employerjobs" Type="Self.Employerjob" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employerregisteration">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Employerjobs">
+        <PropertyRef Name="ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Traineeskill__ID__2EA5EC27">
+    <End Role="RegisterationTrainee" Type="Self.RegisterationTrainee" Multiplicity="0..1" />
+    <End Role="Traineeskills" Type="Self.Traineeskill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RegisterationTrainee">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Traineeskills">
+        <PropertyRef Name="ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="RegisterationTraineeEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Employerjobs" EntityType="Self.Employerjob" />
+    <EntitySet Name="Employerregisterations" EntityType="Self.Employerregisteration" />
+    <EntitySet Name="RegisterationTrainees" EntityType="Self.RegisterationTrainee" />
+    <EntitySet Name="Traineeskills" EntityType="Self.Traineeskill" />
+    <AssociationSet Name="FK__Employerjobs__ID__7AF13DF7" Association="Self.FK__Employerjobs__ID__7AF13DF7">
+      <End Role="Employerregisteration" EntitySet="Employerregisterations" />
+      <End Role="Employerjobs" EntitySet="Employerjobs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Traineeskill__ID__2EA5EC27" Association="Self.FK__Traineeskill__ID__2EA5EC27">
+      <End Role="RegisterationTrainee" EntitySet="RegisterationTrainees" />
+      <End Role="Traineeskills" EntitySet="Traineeskills" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
